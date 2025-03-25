@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;  /* Applied Google Font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #2c3e50;  /* Dark color for better readability */
+    margin-top: 30px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #3498db;  /* Blue color on hover */
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section h2 {
+    color: #2980b9; /* Section headings in blue */
+}
+
+section p {
+    color: #555; /* Light grey color for text */
+    font-size: 18px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    color: #3498db; /* Blue color for all links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
